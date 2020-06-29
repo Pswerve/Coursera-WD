@@ -2,28 +2,27 @@
 
 * {
     box-sizing: border-box;
-    font-family: Helvetica;
+    font-family: Comic Sans MS;
 }
 
 h1 {
     text-align: center;
-    color: white;
+    color: black;
     margin-bottom: 15px;
-    font-size: 500%;
+    font-size: 400%;
 }
 
 body {
-	/* background-image: url("background.jpg"); */
-	background-color: #FFF0F5;
+	background-image: url("background.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: ;
 }
 
 p {
 	padding: 10px;
 	margin: 0;
   opacity: 100%;
-  font-size: 175%;
+  font-size: 150%;
 }
 
 .container {
@@ -60,21 +59,22 @@ section > div {
 }
 
 #chicken {
-    background-color: #00BFFF;
+    background-color: #FFB6C1;
     opacity: 100%;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 #beef {
-    background-color: #FF1439;
+    background-color: #B22222;
     opacity: 100%;
-    font-size: 300%;
+    font-size: 200%;
+    color: white;
 }
 
 #sushi {
-    background-color: #008000;
+    background-color: #F0E68C;
     opacity: 100%;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 .row {
