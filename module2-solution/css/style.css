@@ -3,6 +3,12 @@
     font-family: Comic Sans MS;
 }
 
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 400%;
+}
+
 body {
     background-color: #FFFFFF;
     background-image: url("background.jpg");
@@ -10,10 +16,21 @@ body {
     background-repeat: no-repeat;
 }
 
-h1 {
-    color: black;
-    text-align: center;
-    font-size: 400%;
+p {
+  padding: 10px;
+  margin: 0;
+  opacity: 100%;
+  font-size: 150%;
+}
+
+.container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  opacity: 75%;
 }
 
 section {
